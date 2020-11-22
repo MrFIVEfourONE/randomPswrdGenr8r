@@ -1,8 +1,8 @@
+// the html id=generate is now a js var named generateBtn
 var generateBtn = document.querySelector("#generate");
-
+// first promt normaly was a string, that is why 'Number' is infront, so output could be reconized as as a number
 var length = Number(prompt("How many characters will your password be? Enter a number between 8 and 128"));
-
-
+// there should be a if here; if (length <= 8|| length => 128 ) { prompt ("cant be lower then 8,. or higher then 128")}
 var charType = prompt("Enter a character type: special, numeric, uppercase, lowercase.");
 
 
