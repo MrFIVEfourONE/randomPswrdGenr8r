@@ -13,12 +13,14 @@ the second one igotit.js is the script you will see on the deployed site.
 
 Site:
 ![imgOFSite](./assests/passwordGenerator.jpg)
+
 [Site URL](https://mrfivefourone.github.io/randomPswrdGenr8r/)
-Provided Script:
-![provided](./assests/mainScript.jpg)
-1st attempt:
+
+1. Provided Script:
+![start](./assests/mainScript.jpg)
+2. 1st attempt:
 ![1stTry](./assests/scriptch.jpg)
-Deployed Script:
+3. Deployed Script:
 ![deployed](./assests/igotit.jpg)
 and again i feel like 1000% imposter right now.
 
