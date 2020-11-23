@@ -15,14 +15,14 @@ Site:
 <img src="./assests/passwordGenerator.jpg" alt= image of site>
 Site URL: https://mrfivefourone.github.io/randomPswrdGenr8r/
 
-Provided Script
-<img src="./assests/mainscript.jpg" alt= vss screenshot 1>
+Provided Script:
+<img src="./assests/mainScript.jpg" alt= vss screenshot 1>
 
-1st attempt
-<img src="./scriptch.js.jpg" alt= vss screenshot 2>
+1st attempt:
+<img src="./assests/scriptch.jpg" alt= vss screenshot 2>
 
-Deployed Script
-<img src="./igotit.jpg" alt= vss screenshot 3>
+Deployed Script:
+<img src=".assests/igotit.jpg" alt= vss screenshot 3>
 
 and again i feel like 1000% imposter right now.
 
