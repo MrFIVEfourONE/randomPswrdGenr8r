@@ -11,15 +11,24 @@ third (script.js) is what was provided
 
 the second one igotit.js is the script you will see on the deployed site.
 
+Site:
 <img src="./assests/passwordGenerator.jpg" alt= image of site>
+Site URL: https://mrfivefourone.github.io/randomPswrdGenr8r/
 
-proly screen shot here of all three .js files
+Provided Script
+<img src="./assests/mainscript.jpg" alt= vss screenshot 1>
+
+1st attempt
+<img src="./scriptch.js.jpg" alt= vss screenshot 2>
+
+Deployed Script
+<img src="./igotit.jpg" alt= vss screenshot 3>
 
 and again i feel like 1000% imposter right now.
 
 i didnt have time to make it pretty, it is a basic utility of a site, not much to remember.
 
-i WILL do justice by this as i get better and understand what im doing.
+i WILL do justice by this as i get better and understand what im doing... and find the time to come back here and make it my own. This was primarily a learning process for me. I had some epiphanies immediately followed by a broken brain once again. 
 
 
 
