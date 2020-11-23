@@ -16,8 +16,10 @@ Site:
 
 [Site URL](https://mrfivefourone.github.io/randomPswrdGenr8r/)
 
+i WILL do justice by this as i get better and understand what im doing... and find the time to come back here and make it my own. This was primarily a learning process for me. I had some epiphanies immediately followed by a broken brain once again.
+
 1. Provided Script:
-![start](./assests/mainScript.jpg)
+![](./assests/mainScript.jpg)
 2. 1st attempt:
 ![1stTry](./assests/scriptch.jpg)
 3. Deployed Script:
@@ -25,5 +27,3 @@ Site:
 and again i feel like 1000% imposter right now.
 
 i didnt have time to make it pretty, it is a basic utility of a site, not much to remember.
-
-i WILL do justice by this as i get better and understand what im doing... and find the time to come back here and make it my own. This was primarily a learning process for me. I had some epiphanies immediately followed by a broken brain once again.
