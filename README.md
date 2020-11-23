@@ -19,7 +19,7 @@ Site:
 i WILL do justice by this as i get better and understand what im doing... and find the time to come back here and make it my own. This was primarily a learning process for me. I had some epiphanies immediately followed by a broken brain once again.
 
 1. Provided Script:
-![](./assests/mainScript.jpg)
+![given](./assests/mainScript.jpg)
 2. 1st attempt:
 ![1stTry](./assests/scriptch.jpg)
 3. Deployed Script:
