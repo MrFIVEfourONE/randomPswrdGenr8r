@@ -12,8 +12,8 @@ third (script.js) is what was provided
 the second one igotit.js is the script you will see on the deployed site.
 
 Site:
-![imgOFSite](./assests/passwordGenerator.jpg.jpg)
-Site URL: https://mrfivefourone.github.io/randomPswrdGenr8r/
+![imgOFSite](./assests/passwordGenerator.jpg)
+[Site URL](https://mrfivefourone.github.io/randomPswrdGenr8r/)
 Provided Script:
 ![provided](./assests/mainScript.jpg)
 1st attempt:
