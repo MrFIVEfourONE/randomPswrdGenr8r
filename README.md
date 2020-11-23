@@ -16,14 +16,11 @@ Site:
 Site URL: https://mrfivefourone.github.io/randomPswrdGenr8r/
 
 Provided Script:
-<img src="./assests/mainScript.jpg" alt= vss screenshot 1>
-![alt text](./assests/mainScript.jpg)
+![provided](./assests/mainScript.jpg)
 1st attempt:
-<img src="./assests/scriptch.jpg" alt= vss screenshot 2>
-![alt text](./assests/scriptch.jpg)
+![1stTry](./assests/scriptch.jpg)
 Deployed Script:
-<img src="./assests/igotit.jpg" alt= vss screenshot 3>
-![alt text](./assests/igotit.jpg)
+![deployed](./assests/igotit.jpg)
 and again i feel like 1000% imposter right now.
 
 i didnt have time to make it pretty, it is a basic utility of a site, not much to remember.
