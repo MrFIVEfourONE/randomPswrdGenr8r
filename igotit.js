@@ -1,20 +1,19 @@
 var generateBtn = document.querySelector("#generate");
-// var selectBtn = document.querySelector("#selectBtn");
+
 var copyBtn = document.querySelector("#copyBtn")
 
-
-
+// arrays...................
 var alphaUpper = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
 var alphaLower = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 var specialChar = ["!", "%", "&", ",", "*", "+", "-", ".", "/", "<", ">", "?", "~"];
 var number = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
+// arrays...................
 
 function writePassword() {
     var password = generatePassword();
     var passwordText = document.querySelector("#password");
 
     passwordText.value = password;
-
 }
 
 function copyPassword() {
@@ -23,10 +22,6 @@ function copyPassword() {
     document.execCommand("copy");
   }
   
-//   document.querySelector("#copyBtn").addEventListener("click", copyPassword);
-copyBtn.addEventListener("click", copyPassword);
-
-
 function generatePassword() {
     var passwordLength = parseInt(prompt('How many characters would you like your PASSWORD to be? \n It must be atleast 8 but no more then 128.'));
     // added this conditional gate to validate the input
@@ -73,3 +68,4 @@ function generatePassword() {
 }
 
 generateBtn.addEventListener("click", writePassword);
+copyBtn.addEventListener("click", copyPassword);

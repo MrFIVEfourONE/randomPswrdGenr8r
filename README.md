@@ -1,27 +1,80 @@
-# randomPswrdGenr8r
+# randomPas*w0rdGener8r
 
-all credit to the functionality of this password generator goes to my instructer. I take no credit for building this elegant piece of code. I did however spend atleast 12 hours on this and still just to get to this point. The amount of effort i put into this is not reflected yet with the finished product as i spent most the time stumbling over myself, googleing, cut, copy and past...ing and getting no where near with what the assignment was requesting.... 
+I wanted to create an application that can generate a random password based on criteria the user will select there will be five main critera;
 
-I almost gave up, still feel like i should, but i wont. Im going to fake it until i make it, 
+1. Password must be atleast 8 characters long, but not to exceed 128, and it also must be ABLE to, but not HAVE to include; 
+2. Upper Characters, 
+3. Lower Characters,
+4. Special Characters,
+5. and lastly Numbers.
 
-notice there is three .js files:
-one (scriptch.js) is my first attempt and the, 
-second (igotit.js) is the result of me disecting a recorded video of class.
-third (script.js) is what was provided
+This app will be browser reliant, consist of bare bones HTML, as it will be dynamically updated via JavaScript, and of course CSS. Ofcousre it will be mobile friendly and have a polished finish.
 
-the second one igotit.js is the script you will see on the deployed site.
 
-Site:
-![imgOFSite](./assests/passwordGenerator.jpg)
+## Table of contents
+* [General info](#general-info)
+* [Screenshots](#screenshots)
+* [Links](#links)
+* [Setup](#setup)
+* [Features](#features)
+* [Status](#status)
+* [Inspiration](#inspiration)
+* [Contact](#contact)
 
-[Site URL](https://mrfivefourone.github.io/randomPswrdGenr8r/)
+## General info
 
-i WILL do justice by this as i get better and understand what im doing... and find the time to come back here and make it my own. This was primarily a learning process for me. I had some epiphanies immediately followed by a broken brain once again.
+The user is promted to choose the Character Lenght from the start, and if the user input is outside the give parameters they are alereted of that fact and must restart. 
 
-1. 1st attempt:
-![1stTry](./assests/scriptch.jpg)
-2. Deployed Script:
-![deployed](./assests/igotit.jpg)
-and again i feel like 1000% imposter right now.
+Once that is validated the user then goes through a series of four promts asking bolean questions regarding their prefrence on the variety of Characters and Numbers they would like in thier new password.
 
-i didnt have time to make it pretty, it is a basic utility of a site, not much to remember.
+Again, once that is valadated, a loop runs through all thier selections and randomly picks whatever Characters they chose and displays it in the black box in the middle of the screen.
+
+I built in a handy little 'COPY' button that will copy the displayed Password to your clipboard for you.
+
+Initialy, I built this in a hurry and not fully understanding how to accomplish it, then went back once I fully understood and finished it. There will be screenshots of both versions.  
+## Screenshots
+
+Finished Product
+![Final Product](./assests/passwordGeneratorScreenshot.jpg)
+
+First Try
+![First Try](./assests/passwordGenerator.jpg)
+## Links
+
+* [URL of live site](https://mrfivefourone.github.io/randomPswrdGenr8r/)
+
+* [First Readme](https://github.com/MrFIVEfourONE/randomPswrdGenr8r/blob/main/README.md)
+
+## Setup
+Browser Based
+
+## Code Examples
+I am especialy proud of the Copy function:
+
+`function copyPassword() {
+    var copyText = document.querySelector("#password");
+    copyText.select();
+    document.execCommand("copy");
+  }
+  
+
+copyBtn.addEventListener("click", copyPassword);`
+
+## Features
+
+* It got an almost perfect score with Dev Tool Lighthouse
+![Audit Score](./assests/passwordGeneratorScore.jpg)
+
+* Ability to copy Password to clipboard.
+
+## Status
+Project is: finished.
+
+## Inspiration
+
+Malgorzata Rita : for providing this awsome readme format! [@flynerdpl](https://www.flynerd.pl/)
+
+Dane Shrewsbury : for being a mentor and helping with some last minute JavaScript bugs.
+
+## Contact
+choffman541@gmail.com feel free to contact me.
