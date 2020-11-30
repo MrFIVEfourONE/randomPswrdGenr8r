@@ -1,34 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Password Generator</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Password Generator</h1>
-      </header>
-      <div class="card">
-        <div class="card-header">
-          <h2>Generate a Password</h2>
-        </div>
-        <div class="card-body">
-          <textarea
-            readonly
-            id="password"
-            placeholder="Your Secure Password"
-            aria-label="Generated Password"
-          ></textarea>
-        </div>
-        <div class="card-footer">
-          <button id="generate" class="btn">Generate Password</button>
-        </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Pas*w0rd Gener8r</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- got some fonts from -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="topBottom">
+      <h1>Random Pas*w0rd Gener8r</h1>
+    </header>
+    <div class="card">
+      <!-- added some pazaz -->
+      <div class="card-header">
+        <h2>Press the button below to <br>gener8 an <strong style="color: rgb(157, 228, 98);">AWSOME</strong><br> Pas*w0rd
+        </h2>
+      </div>
+      <div class="card-body">
+        <textarea readonly id="password" placeholder="Your Secure Password" aria-label="Generated Password"></textarea>
+      </div>
+      <div class="card-ankle">
+        <h2>Once Gener8ed simply press this button to...</h2>
+        <button id="copyBtn">...COPY...</button>
+        <h2>...your eXtremly unique Pas*w0rd</h2>
+      </div>
+      <div class="card-footer">
+        <button id="generate" class="btn">Gener8 AWSOME Pas*w0rd</button>
       </div>
     </div>
-    <script src="igotit.js"></script>
-  </body>
+    <!-- added a footer for symitry(cant spell4sh!t) -->
+    <footer class="topBottom">
+      <h1>!!!Save That ^ Somewhere!!!</h1>
+    </footer>
+  </div>
+  <script src="igotit.js"></script>
+</body>
+
 </html>
